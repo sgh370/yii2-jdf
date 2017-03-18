@@ -588,12 +588,8 @@ class Jdf extends \yii\base\Widget
         return($mod == '') ? $array : implode($mod, $array);
     }
 
-    /** Gregorian & Jalali (Hijri_Shamsi,Solar) date converter Functions
-      Copyright(C)2015 JDF.SCR.IR : [ http://jdf.scr.ir/jdf ] version 2.60
-      --------------------------------------------------------------------
-      1461 = 365*4 + 4/4   &  146097 = 365*400 + 400/4 - 400/100 + 400/400
-      12053 = 365*33 + 32/4    &    36524 = 365*100 + 100/4 - 100/100 */
     /* 	F	 */
+    
     public static function gregorian_to_jalali($gy, $gm, $gd, $mod = '') {
         list($gy, $gm, $gd) = explode('_', self::tr_num($gy . '_' . $gm . '_' . $gd)); /* <= Extra :اين سطر ، جزء تابع اصلي نيست */
         $g_d_m = array(0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
