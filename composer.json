@@ -1,0 +1,21 @@
+{
+    "name": "sgh370/yii2-jdf",
+    "description": "Convert Any Type Of Date",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","persian date","jdate","jdf"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "sgh370",
+            "email": "sgh370@yahoo.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sgh370\\jdf\\": ""
+        }
+    }
+}
