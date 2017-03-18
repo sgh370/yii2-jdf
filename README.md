@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist sgh370/yii2-jdf "*"
+php composer.phar require --prefer-dist sgh370/yii2-jdf "dev-master"
 ```
 
 or add
 
 ```
-"sgh370/yii2-jdf": "*"
+"sgh370/yii2-jdf": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
